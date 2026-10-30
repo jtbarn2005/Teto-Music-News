@@ -1,7 +1,8 @@
 {
   "timezone": "America/Denver",
-  "weekStart": "",
-  "updatedAt": "Not published yet",
+  "source": "Public YouTube channel feeds; see data/channels.json",
+  "weekStart": "2026-10-25",
+  "updatedAt": "2026-10-30 11:06 MDT",
   "weeklyVideos": [],
   "popularVideos": []
 }
