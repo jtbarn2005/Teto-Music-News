@@ -1,6 +1,19 @@
 {
   "channels": [
-    {"channelID": "UCmwz6ogzQqq4FIYv7uLQAXQ",
-     "name": "Kasane Teto"}
+    {"channelId": "UCmwz6ogzQqq4FIYv7uLQAXQ",
+     "name": "Kasane Teto"},
+    {
+      "channelId": "UCDsaRDKTCsGBJMUKx-KtukA",
+      "name": "Jamie Paige"
+    },
+    {
+      "channelId": "UCtmi2O7lp0C_i53hFIExAaA",
+      "name": "32ki"
+    },
+    {
+      "channelId": "UCtrOfS8H26OhoAK5mUKhjYw",
+      "name": "d0tc0mmie"
+    }
+
   ]
 }
