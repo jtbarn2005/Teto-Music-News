@@ -21,7 +21,6 @@ jobs:
           python-version: '3.12'
       - name: Update JSON feed
         env:
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           FORCE_UPDATE: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
         run: python scripts/update_feed.py
       - name: Commit updated feed
