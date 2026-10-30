@@ -7,8 +7,10 @@
     </LinearLayout>
     <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp" android:gravity="center_vertical">
         <Button android:id="@+id/refreshButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Refresh" android:textColor="@color/teto_dark_cyan" />
-        <Space android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1" />
-        <Button android:id="@+id/popularButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="This month" android:textColor="@color/teto_pink" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="12dp" android:paddingEnd="12dp" android:orientation="horizontal">
+        <Button android:id="@+id/weeklyButton" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginEnd="4dp" android:text="@string/this_week" />
+        <Button android:id="@+id/popularButton" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="4dp" android:text="@string/this_month" />
     </LinearLayout>
     <TextView android:id="@+id/emptyText" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="24dp" android:gravity="center" android:textColor="@color/teto_muted" android:textSize="15sp" android:visibility="gone" />
     <androidx.recyclerview.widget.RecyclerView android:id="@+id/videoList" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:padding="12dp" android:clipToPadding="false" />
