@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teto_cyan">#16BFD4</color>
+    <color name="teto_dark_cyan">#087F9B</color>
+    <color name="teto_pink">#F06C9B</color>
+    <color name="teto_ink">#18323B</color>
+    <color name="teto_muted">#6A7F86</color>
+    <color name="teto_surface">#F5FBFC</color>
+    <color name="white">#FFFFFF</color>
+</resources>
